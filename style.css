@@ -1,0 +1,43 @@
+body{
+    margin: 10vh;
+    padding: 0vh;
+    background-color: #1d7eec;
+}
+
+.corpo{
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.formulario{
+    display: flex;
+    flex-flow: column;
+}
+
+.formulario *{
+    margin: 20px;
+}
+
+.titulo{
+    font-size:50px;
+    color: #0d192b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+select{
+    background-color: #f8f8f8;
+    height: 40px;
+    color: black;
+    font-size: large;
+    border-radius: 10px;
+}
+
+h1{
+    color: #10100f;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
